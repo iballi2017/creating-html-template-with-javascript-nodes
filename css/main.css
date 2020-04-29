@@ -41,6 +41,7 @@ footer {
   bottom: 0;
   width: 100%;
   background: var(--clr-tint);
+  color: var(--clr-white);
   padding: 1em 0 1em 0;
   margin-top: 1em;
   text-align: center;
@@ -105,18 +106,18 @@ footer {
   }
 
   .nav-tab .nav-list::after {
-    content: '';
+    content: "";
     display: block;
     background: var(--clr-shade);
     height: 3px;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
-    transform-origin: 'right';
+    transform-origin: "right";
   }
 
   .nav-tab .nav-list:hover::after {
     transform: scaleX(1);
     transition: transform 250ms ease-in-out;
-    transform-origin: 'left';
+    transform-origin: "left";
   }
 }
