@@ -81,7 +81,7 @@ console.log(main)
 
 
 var pageTitle = document.createElement("h1")
-var title = document.createTextNode("This is a page title")
+var title = document.createTextNode("Creating HTML Template With Javascript Nodes")
 
 main.appendChild(pageTitle).appendChild(title)
 pageTitle.setAttribute("class", "title")
